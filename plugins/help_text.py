@@ -10,6 +10,12 @@ logger = logging.getLogger(__name__)
 
 import os
 import sqlite3
+from pyrogram import (
+    Client,
+    Filters,
+    InlineKeyboardMarkup,
+    InlineKeyboardButton
+)
 
 # the secret configuration specific things
 if bool(os.environ.get("WEBHOOK", False)):
@@ -40,6 +46,14 @@ async def help_user(bot, update):
         text=Translation.HELP_USER,
         parse_mode="html",
         disable_web_page_preview=True,
+        reply_markup=InlineKeyboardMarkup(
+          [
+            [
+              InlineKeyboardButton('💢 Channel 💢', url='https://telegram.me/FayasKallekkad'),
+              InlineKeyboardButton('💢 Source 💢', url='https://github.com/FayasKallekkad/URL-Uploader-Bot')
+            ]
+          ]
+        ),
         reply_to_message_id=update.message_id
     )
 
@@ -53,5 +67,13 @@ async def start(bot, update):
         text=Translation.START_TEXT,
         parse_mode="html",
         disable_web_page_preview=True,
+        reply_markup=InlineKeyboardMarkup(
+          [
+            [
+              InlineKeyboardButton('💢 Channel 💢', url='https://telegram.me/FayasKallekkad'),
+              InlineKeyboardButton('💢 Source 💢', url='https://github.com/FayasKallekkad/URL-Uploader-Bot')
+            ]
+          ]
+        ),
         reply_to_message_id=update.message_id
     )
