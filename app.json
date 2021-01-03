@@ -14,9 +14,9 @@
     "remote",
     "uploader"
   ],
-  "success_url": "https://telegram.dog/AnyDLBot",
-  "website": "https://github.com/SpEcHiDe/AnyDLBot",
-  "repository": "https://github.com/SpEcHiDe/AnyDLBot",
+  "success_url": "https://telegram.dog/UploadProBot",
+  "website": "https://github.com/FayasKallekkad",
+  "repository": "https://github.com/FayasKallekkad/URL-Uploader-Bot",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -44,11 +44,6 @@
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
-      "value": "",
-      "required": false
-    },
-    "UPDATE_CHANNEL": {
-      "description": "For Force Subscribe. Paste your Update channel USERNAME (without @)..",
       "value": "",
       "required": false
     },
