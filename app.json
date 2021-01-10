@@ -1,5 +1,5 @@
 {
-  "name": "TG URL Uploader",
+  "name": "URL Uploader Bot",
   "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
   "keywords": [
     "telegram",
@@ -14,7 +14,7 @@
     "remote",
     "uploader"
   ],
-  "success_url": "https://telegram.dog/UploadProBot",
+  "success_url": "https://telegram.me/BetaConverterBot",
   "website": "https://github.com/FayasKallekkad",
   "repository": "https://github.com/FayasKallekkad/URL-Uploader-Bot",
   "env": {
