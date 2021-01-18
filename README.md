@@ -4,6 +4,7 @@ A Simple URL Uploader Bot. URL Upload to Telegram Media or File Bot with Custom 
 #### Channel 
 
 Join this repository [updates channel](https://telegram.me/fnprojects).
+
 #### Deploy
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FayasKallekkad/URL-Uploader-Bot)
 
