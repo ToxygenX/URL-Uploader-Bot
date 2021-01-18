@@ -49,7 +49,7 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
           [
             [
-              InlineKeyboardButton('💢 Channel 💢', url='https://telegram.me/FayasKallekkad'),
+              InlineKeyboardButton('💢 Channel 💢', url='https://telegram.me/fnprojects'),
               InlineKeyboardButton('💢 Source 💢', url='https://github.com/FayasKallekkad/URL-Uploader-Bot')
             ]
           ]
@@ -70,7 +70,7 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
           [
             [
-              InlineKeyboardButton('💢 Channel 💢', url='https://telegram.me/FayasKallekkad'),
+              InlineKeyboardButton('💢 Channel 💢', url='https://telegram.me/fnprojects'),
               InlineKeyboardButton('💢 Source 💢', url='https://github.com/FayasKallekkad/URL-Uploader-Bot')
             ]
           ]
